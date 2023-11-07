@@ -29,3 +29,11 @@ public class Diagnol {
     ob.diagnol();
    }
 }
+output:
+/*
+ *1 2 3 
+ *1 2 3
+ *1 2 3 
+ *1 2 3
+ *1 2 3
+ */

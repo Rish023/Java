@@ -1,6 +1,17 @@
 import java.util.*;
-
-public class UpperRowSwapToLowerRowandviceversa {
+/*Actual Output should be like this
+ * 1 2 3 4
+ * 5 6 7 8
+ * 9 10 11 12 
+ * 13 14 15 16
+ * 
+ * But the output is
+ *  * 13 14 15 16
+ * 5 6 7 8
+ * 9 10 11 12 
+ * 13 14 15 16
+ */
+class UpperRowSwapToLowerRowandviceversa {
     int a[][] = new int[4][4];
     int i, j, t = 0;
 
@@ -15,18 +26,21 @@ public class UpperRowSwapToLowerRowandviceversa {
     }
 
     void inter_change() {
-        System.out.println("The elements of the first row and the last row after swapping:");
+       /* System.out.println("The elements of the first row and the last row after swapping:");
         for (i = 0; i < 4; i++) {
             for (j = 0; j < 4; j++) {
                 t = a[0][j];
                 a[0][j] = a[3][j];
                 a[3][j] = t;
             }
-        }
+        }*/
 
         // Print the matrix after swapping
         for (i = 0; i < 4; i++) {
             for (j = 0; j < 4; j++) {
+                  t = a[0][j];
+                a[0][j] = a[3][j];
+                a[3][j] = t;
                 System.out.print(a[i][j] + " ");
             }
             System.out.println(); // Add a new line after each row
