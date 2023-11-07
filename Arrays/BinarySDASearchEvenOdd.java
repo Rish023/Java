@@ -1,6 +1,6 @@
 import java.util.Scanner;
     
-    public class BinarySDASearchEvenOdd{
+class BinarySDASearchEvenOdd{
         Scanner sc = new Scanner(System.in);
         int a[] = new int[20];
         int i,e=0,o=0,n,k=0;
@@ -19,7 +19,16 @@ import java.util.Scanner;
             for(i=0;i<20;i++){
            if(n==a[i])
            k=1;
+           continue;
         }
+        if(n%2==0 && n>0)
+        System.out.println("Positive Even Number");
+        else if(n%2!=0 && n>0)
+        System.out.println("Positive Odd Number");
+        else if(n%2==0 && n<0)
+        System.out.println("Negative Even Number");
+        else if(n%2!=0 && n<0)
+        System.out.println("Negative Odd Number");
            if(k==1){
             System.out.println("The number you have enter is present in an array.");
            }

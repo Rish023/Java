@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Diagnol {
    int a[][] = new int[5][5];
-   int i,j,x=3;
+   int i,j,x=4 ;
 
    void input(){
     Scanner sc = new Scanner(System.in);
@@ -20,8 +20,9 @@ public class Diagnol {
             System.out.print(a[i][j]+" ");
         }
            System.out.println();
+            x--;
     }
- x--;
+
    }
    public static void main(String[]args){
     Diagnol ob = new Diagnol();
@@ -29,7 +30,7 @@ public class Diagnol {
     ob.diagnol();
    }
 }
-output:
+//output:
 /*
  *1 2 3 
  *1 2 3
