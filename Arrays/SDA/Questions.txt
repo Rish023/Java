@@ -1,0 +1,104 @@
+Certainly! Here are 100 single-dimensional array-related programming questions in Java, along with brief descriptions for each. These questions cover a wide range of array-related topics and can help you practice and improve your Java programming skills:
+
+1. Write a Java program to find the sum of all elements in an integer array.
+2. Find the largest element in an array.
+3. Find the smallest element in an array.
+4. Calculate the average of elements in an array.
+5. Find the index of a specific element in an array.
+6. Check if an array contains a specific element.
+7. Reverse the elements of an array.
+8. Count the number of even and odd elements in an array.
+9. Find the second largest element in an array.
+10. Remove duplicate elements from an array.
+11. Check if an array is sorted in ascending order.
+12. Check if an array is sorted in descending order.
+13. Merge two sorted arrays into a single sorted array.
+14. Find the missing number in an array of consecutive integers.
+15. Rotate an array to the right by a given number of positions.
+16. Find the majority element in an array (an element that appears more than n/2 times).
+17. Find the intersection of two arrays.
+18. Find the union of two arrays.
+19. Sort an array in ascending order using the Bubble Sort algorithm.
+20. Sort an array in ascending order using the Selection Sort algorithm.
+21. Sort an array in ascending order using the Insertion Sort algorithm.
+22. Sort an array in ascending order using the Merge Sort algorithm.
+23. Sort an array in ascending order using the Quick Sort algorithm.
+24. Implement a linear search algorithm to find an element in an array.
+25. Implement a binary search algorithm to find an element in a sorted array.
+26. Count the occurrences of a specific element in an array.
+27. Find the first non-repeating element in an array.
+28. Find the kth largest element in an array.
+29. Find the kth smallest element in an array.
+30. Calculate the product of all elements in an array.
+31. Find the maximum subarray sum (Kadane's algorithm).
+32. Find the longest increasing subarray in an array.
+33. Find the longest decreasing subarray in an array.
+34. Check if an array can be divided into two equal sum subarrays.
+35. Implement a stack using an array.
+36. Implement a queue using an array.
+37. Implement a circular queue using an array.
+38. Implement a dynamic array (like ArrayList) from scratch.
+39. Reverse a subarray within an array.
+40. Find the subarray with the maximum sum in a circular array.
+41. Shuffle an array randomly.
+42. Find the equilibrium index of an array (where the sum of elements before and after the index is the same).
+43. Find the subarray with the maximum product.
+44. Implement a priority queue using an array (e.g., a max-heap).
+45. Find the smallest positive integer not present in an array.
+46. Find the largest subarray with an equal number of 0s and 1s.
+47. Find the longest subarray with distinct elements.
+48. Rotate a square matrix (2D array) 90 degrees.
+49. Find the row with the maximum sum in a 2D array.
+50. Find the column with the maximum sum in a 2D array.
+51. Calculate the determinant of a 2x2 matrix.
+52. Calculate the sum of two matrices.
+53. Check if a matrix is symmetric.
+54. Check if a matrix is diagonal.
+55. Multiply two matrices.
+56. Transpose a matrix.
+57. Find the saddle point in a matrix (an element that is both the minimum in its row and maximum in its column).
+58. Find the trace of a square matrix (sum of diagonal elements).
+59. Find the rank of a matrix.
+60. Check if a matrix is sparse (most of its elements are zero).
+61. Perform matrix addition.
+62. Perform matrix subtraction.
+63. Perform matrix multiplication by a scalar.
+64. Find the largest element in a 2D array.
+65. Find the smallest element in a 2D array.
+66. Find the longest consecutive sequence of numbers in a 1D array.
+67. Calculate the sum of elements in even and odd indices separately.
+68. Find the maximum and minimum product subarray in an array.
+69. Find the longest subarray with a sum less than or equal to a given value.
+70. Find the longest subarray with a sum greater than a given value.
+71. Find the length of the longest increasing subsequence in an array.
+72. Find the element that appears more than n/3 times in an array.
+73. Find the median of two sorted arrays.
+74. Find the longest common subarray between two arrays.
+75. Implement a stack that supports push, pop, top, and getMin operations in O(1) time.
+76. Implement a queue that supports enqueue, dequeue, front, and rear operations.
+77. Implement a circular queue that supports enqueue, dequeue, and isFull operations.
+78. Implement a deque (double-ended queue) using an array.
+79. Implement a sliding window maximum algorithm for an array.
+80. Rearrange positive and negative values in an array.
+81. Implement an array-based hash table (with collision handling).
+82. Find the maximum sum rectangle in a 2D matrix.
+83. Check if an array can be partitioned into two subsets with equal sum.
+84. Implement a Min-Max stack using an array.
+85. Find the minimum difference between any two elements in an array.
+86. Implement a stack that supports push, pop, and getMin operations with O(1) time complexity.
+87. Implement a circular buffer (ring buffer) using an array.
+88. Implement a dynamic programming solution to the coin change problem.
+89. Find the maximum profit by buying and selling stocks from an array of stock prices.
+90. Find the longest subarray with a sum equal to zero.
+91. Find the longest subarray with a sum equal to a given value.
+92. Check if an array is a permutation of the numbers from 1 to N.
+93. Implement a hash set using an array.
+94. Find the majority element in an array using the Boyer-Moore Voting Algorithm.
+95. Rotate an image represented as a 2D array (matrix).
+96. Implement a queue using two stacks.
+97. Find the longest increasing subsequence in an array.
+98. Check if an array can be divided into three equal parts with the same sum.
+99. Calculate the "rain trapped" between buildings in an array representing heights.
+100. Find the maximum circular subarray sum.
+
+Feel free to use these questions to practice your Java programming skills and explore different aspects of working with arrays in Java.
