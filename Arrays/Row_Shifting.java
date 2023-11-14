@@ -1,37 +1,42 @@
 import java.util.Scanner;
 
-class RowShifting {
-    int a[][] = new int[4][4];
-    int a1[] = new int[4];
-    int i, j, f = 0;
+public class Row_Shifting {
+    
+        int[][] matrix = new int[4][4];
 
-    void input() {
+        void input(){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter 4x4 matrix of an array:");
-        for (i = 0; i < 4; i++) {
-            for (j = 0; j < 4; j++) {
-                a[i][j] = sc.nextInt();
+        // Input values into the 4x4 matrix
+        System.out.println("Enter 4x4 matrix values:");
+        for (int i = 0; i < 4; i++) {
+            for (int j = 0; j < 4; j++) {
+                matrix[i][j] = sc.nextInt();
             }
         }
-    }
+        }
+    void perform(){
 
-    void assign(){
-        for(i=0;i<4;i++){
-            a1[i] = a[3][j];
+        // Perform cyclic row shifting
+        int[] temp = matrix[0]; // Store the first row in a temporary array
+        for (int i = 0; i < 3; i++) {
+            matrix[i] = matrix[i + 1]; // Shift each row up by one
+        }
+        matrix[3] = temp; // Set the last row as the original first row
+
+        // Display the resulting matrix
+        System.out.println("Matrix after cyclic row shifting:");
+        for (int i = 0; i < 4; i++) {
+            for (int j = 0; j < 4; j++) {
+                System.out.print(matrix[i][j] + " ");
+            }
+            System.out.println();
         }
     }
 
-    void shifting() {
-       for(i=0;i<=3;i++){
-        for(j=0;j<=3;j++){
-            a[i][j] = a1[2-1][];
-        }
-       }
-    }
+        public static void main(String[] args) {
+         Row_Shifting ob = new Row_Shifting();
+         ob.input();
+         ob.perform();
 
-    public static void main(String[] args) {
-        RowShifting ob = new RowShifting();
-        ob.input();
-        ob.shifting();
     }
 }

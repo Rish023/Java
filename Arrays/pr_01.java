@@ -1,4 +1,3 @@
-package Practice;
 class pr_01
 {
     public static void main(String[]args)

@@ -1,4 +1,4 @@
-package Practice;
+
 import java.util.ArrayList;
 public class sample_string {
     public static void main(String[] args) {

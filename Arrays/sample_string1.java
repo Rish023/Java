@@ -1,4 +1,4 @@
-package Practice;
+
 
 public class sample_string1 {
     public static void main(int m[]) {

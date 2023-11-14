@@ -1,4 +1,3 @@
-package Practice;
 
 public class sample_char {
 public static void main(String[] args) {

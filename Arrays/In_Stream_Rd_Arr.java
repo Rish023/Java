@@ -1,5 +1,3 @@
-package Practice;
-
 import java.util.Scanner;
 import java.io.*;
 public class In_Stream_Rd_Arr

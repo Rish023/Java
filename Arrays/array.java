@@ -1,5 +1,3 @@
-package Practice;
-
 public class array {
     public static void main(String[] args) {
         int[] a={46,54},b={56,4};
